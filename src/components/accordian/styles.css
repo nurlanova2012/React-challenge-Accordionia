@@ -1,0 +1,32 @@
+.acc-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .accordion {
+    width: 500px;
+  }
+  
+  .item {
+    background: #51557E;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .acc-content {
+    color: #ffffff;
+    height: auto;
+  }
